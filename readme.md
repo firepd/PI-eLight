@@ -1,5 +1,4 @@
-## π-eLight: Learning Interpretable Programmatic
-Policies for Effective Traffic Signal Control
+## π-eLight: Learning Interpretable Programmatic Policies for Effective Traffic Signal Control
 
 > **⚠️ Important Note:** This repository was initially created for our paper titled "[π-eLight: Programmatic Interpretable Reinforcement Learning for Effective Traffic Signal Control]". The title has been changed in the final published version.
 
@@ -7,7 +6,7 @@ Policies for Effective Traffic Signal Control
 
 
 
-π-eLight is an improvement over our previous work, π-Light. Similar to the previous work, we represent the policy using programs. We propose a new program framework that includes an additional program to determine whether to maintain the current phase. Additionally, we introduce an improved program search algorithm to explore program combinations. π-eLight outperforms π-Light and achieved first place in the Traffic Signal Control track of the 2024 Tencent Kaiwu Global AI Competition.
+π-eLight is an improvement over our previous work, [π-Light](https://github.com/firepd/PI-Light). Similar to the previous work, we represent the policy using programs. We propose a new program framework that includes an additional program to determine whether to maintain the current phase. Additionally, we introduce an improved program search algorithm to explore program combinations. π-eLight outperforms π-Light and achieved first place in the Traffic Signal Control track of the 2024 Tencent Kaiwu Global AI Competition.
 
 Note that we have also fixed some minor bugs in the environment from the previous code.
 
