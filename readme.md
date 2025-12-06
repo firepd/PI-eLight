@@ -1,4 +1,11 @@
-## π-eLight: Programmatic Interpretable Reinforcement Learning for Effective Traffic Signal Control
+## π-eLight: Learning Interpretable Programmatic
+Policies for Effective Traffic Signal Control
+
+> **⚠️ Important Note:** This repository was initially created for our paper titled "[π-eLight: Programmatic Interpretable Reinforcement Learning for Effective Traffic Signal Control]". The title has been changed in the final published version.
+
+*   **Final Published Version:** doi: https://doi.org/10.1109/TMC.2025.3600533
+
+
 
 π-eLight is an improvement over our previous work, π-Light. Similar to the previous work, we represent the policy using programs. We propose a new program framework that includes an additional program to determine whether to maintain the current phase. Additionally, we introduce an improved program search algorithm to explore program combinations. π-eLight outperforms π-Light and achieved first place in the Traffic Signal Control track of the 2024 Tencent Kaiwu Global AI Competition.
 
@@ -79,3 +86,5 @@ python 03_run_viper.py
 ## Acknowledgments
 
 This codebase is based on [Tinylight](https://github.com/dxing-cs/TinyLight)'s code.
+
+SAC、PPO的实现借鉴了：https://github.com/XinJingHao/DRL-Pytorch
